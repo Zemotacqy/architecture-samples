@@ -20,7 +20,8 @@
     <application>
         <activity
             android:name=".HiltTestActivity"
-            android:exported="false"  />
+            android:exported="false"
+            android:networkSecurityConfig="@xml/network_security_config" />
     </application>
 
 </manifest>
